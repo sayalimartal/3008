@@ -14,7 +14,7 @@
 <h1>Customer Operations</h1>
 </div>
 <div>
-<a href="home.jsp">Home</a>
+<a href="/home">Home</a>
 </div>
 </body>
 </html>

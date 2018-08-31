@@ -1125,3 +1125,189 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2018-08-30 17:53:56.812  INFO 1932 --- [RMI TCP Connection(359)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2018-08-30 17:53:57.312  INFO 1932 --- [RMI TCP Connection(359)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
 2018-08-30 17:53:57.593  INFO 1932 --- [RMI TCP Connection(359)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:11}] to localhost:27017 because there was a socket exception raised on another connection from this pool.
+2018-08-31 09:46:35.299  INFO 5216 --- [main] c.d.r.App                                : Starting App on IKPCLOUD005 with PID 5216 (P:\Users\smartal\Documents\sayali\workspace-sts-3.9.5.RELEASE\rest\target\classes started by smartal in P:\Users\smartal\Documents\sayali\workspace-sts-3.9.5.RELEASE\rest)
+2018-08-31 09:46:37.943  INFO 5216 --- [main] c.d.r.App                                : No active profile set, falling back to default profiles: default
+2018-08-31 09:46:38.525  INFO 5216 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2118cddf: startup date [Fri Aug 31 09:46:38 GMT+05:30 2018]; root of context hierarchy
+2018-08-31 09:47:07.362  INFO 5216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-31 09:47:13.256  INFO 5216 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.demo.rest.dao.CustomerRepository.
+2018-08-31 09:47:13.264  INFO 5216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-31 09:47:16.328  INFO 5216 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$723b5875] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 09:47:16.532  INFO 5216 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$f1bba5a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 09:47:17.667  INFO 5216 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2018-08-31 09:47:17.784  INFO 5216 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-08-31 09:47:17.785  INFO 5216 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-31 09:47:17.800  INFO 5216 --- [localhost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\Doctrine extensions for PHP\;C:\Softwares\spring-tool-suite-3.9.5.RELEASE-e4.8.0-win32-x86_64\sts-bundle\sts-3.9.5.RELEASE;;.]
+2018-08-31 09:47:18.718  INFO 5216 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-08-31 09:47:18.719  INFO 5216 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 40202 ms
+2018-08-31 09:47:31.145  INFO 5216 --- [localhost-startStop-1] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-31 09:47:31.532  INFO 5216 --- [cluster-ClusterId{value='5b88c15b3863b8146007c703', description='null'}-localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2018-08-31 09:47:31.537  INFO 5216 --- [cluster-ClusterId{value='5b88c15b3863b8146007c703', description='null'}-localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2972400}
+2018-08-31 09:47:32.847  INFO 5216 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 09:47:32.848  INFO 5216 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-08-31 09:47:32.848  INFO 5216 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 09:47:32.848  INFO 5216 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 09:47:32.849  INFO 5216 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 09:47:32.850  INFO 5216 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-08-31 09:47:32.850  INFO 5216 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-08-31 09:47:33.622  INFO 5216 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-08-31 09:47:34.119  INFO 5216 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-08-31 09:47:34.423  INFO 5216 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-31 09:47:34.804  INFO 5216 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-31 09:47:35.381  INFO 5216 --- [main] o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-31 09:47:35.457  INFO 5216 --- [main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-08-31 09:47:36.033  INFO 5216 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-31 09:47:36.561  INFO 5216 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-08-31 09:47:37.592  INFO 5216 --- [main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@479b5066'
+2018-08-31 09:47:37.597  INFO 5216 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-31 09:47:38.208  WARN 5216 --- [main] c.d.r.App                                : sending hello world response...
+2018-08-31 09:47:38.209  INFO 5216 --- [main] c.d.r.App                                : sending hello world response...
+2018-08-31 09:47:38.209 ERROR 5216 --- [main] c.d.r.App                                : sending hello world response...
+2018-08-31 09:47:38.419  INFO 5216 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 09:47:39.223  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2118cddf: startup date [Fri Aug 31 09:46:38 GMT+05:30 2018]; root of context hierarchy
+2018-08-31 09:47:39.319  WARN 5216 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-31 09:47:39.447  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/add],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<com.demo.rest.pojo.Customer> com.demo.rest.controller.CustomerOperations.addCustomer(com.demo.rest.pojo.Customer)
+2018-08-31 09:47:39.448  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.demo.rest.pojo.Customer>> com.demo.rest.controller.CustomerOperations.viewAllCustomers()
+2018-08-31 09:47:39.449  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/update],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.demo.rest.pojo.Customer> com.demo.rest.controller.CustomerOperations.updateCustomer(com.demo.rest.pojo.Customer)
+2018-08-31 09:47:39.451  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/view/{customerId}],methods=[GET],produces=[*/*]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resource<com.demo.rest.pojo.Customer>> com.demo.rest.controller.CustomerOperations.viewCustomer(int)
+2018-08-31 09:47:39.452  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/delete/{customerId}],methods=[DELETE],produces=[*/*]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.demo.rest.controller.CustomerOperations.deleteCustomer(int)
+2018-08-31 09:47:39.452  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{start}/{count}],methods=[GET],produces=[*/*]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resources> com.demo.rest.controller.CustomerOperations.viewAllCustomersInPages(int,int)
+2018-08-31 09:47:39.473  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 09:47:39.474  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 09:47:39.557  INFO 5216 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 09:47:39.557  INFO 5216 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 09:47:41.487  INFO 5216 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-08-31 09:47:41.503  INFO 5216 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-31 09:47:41.508  INFO 5216 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-31 09:47:41.510  INFO 5216 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 09:47:41.732  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-31 09:47:41.735  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-31 09:47:41.748  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-31 09:47:41.915  INFO 5216 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-31 09:47:42.129  INFO 5216 --- [main] c.d.r.App                                : Started App in 82.582 seconds (JVM running for 91.038)
+2018-08-31 09:47:42.361  INFO 5216 --- [main] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2018-08-31 09:48:27.754  INFO 5216 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-31 09:48:27.754  INFO 5216 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-31 09:48:27.813  INFO 5216 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms
+2018-08-31 09:48:28.544  INFO 5216 --- [http-nio-8080-exec-1] c.d.r.App                                : Viewed all customers
+2018-08-31 09:49:51.230  INFO 5216 --- [http-nio-8080-exec-3] c.d.r.App                                : Viewed all customers
+2018-08-31 09:50:01.920  INFO 5216 --- [http-nio-8080-exec-5] c.d.r.App                                : Viewed all customers
+2018-08-31 09:50:17.824  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-31 09:50:17.824  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2118cddf: startup date [Fri Aug 31 09:46:38 GMT+05:30 2018]; root of context hierarchy
+2018-08-31 09:50:17.829  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-31 09:50:17.830  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-31 09:50:17.831  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-31 09:50:17.831  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-31 09:50:17.833  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-08-31 09:50:17.869  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-08-31 09:50:17.872  INFO 5216 --- [RMI TCP Connection(12)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+2018-08-31 09:50:25.009  INFO 3592 --- [main] c.d.r.App                                : Starting App on IKPCLOUD005 with PID 3592 (P:\Users\smartal\Documents\sayali\workspace-sts-3.9.5.RELEASE\rest\target\classes started by smartal in P:\Users\smartal\Documents\sayali\workspace-sts-3.9.5.RELEASE\rest)
+2018-08-31 09:50:25.058  INFO 3592 --- [main] c.d.r.App                                : No active profile set, falling back to default profiles: default
+2018-08-31 09:50:25.126  INFO 3592 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1329eff: startup date [Fri Aug 31 09:50:25 GMT+05:30 2018]; root of context hierarchy
+2018-08-31 09:50:27.044  INFO 3592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-31 09:50:27.120  INFO 3592 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.demo.rest.dao.CustomerRepository.
+2018-08-31 09:50:27.157  INFO 3592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-31 09:50:28.131  INFO 3592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dbc929f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 09:50:28.246  INFO 3592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5b497729] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 09:50:28.814  INFO 3592 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2018-08-31 09:50:28.850  INFO 3592 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-08-31 09:50:28.851  INFO 3592 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-31 09:50:28.858  INFO 3592 --- [localhost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\Doctrine extensions for PHP\;C:\Softwares\spring-tool-suite-3.9.5.RELEASE-e4.8.0-win32-x86_64\sts-bundle\sts-3.9.5.RELEASE;;.]
+2018-08-31 09:50:29.176  INFO 3592 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-08-31 09:50:29.177  INFO 3592 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4055 ms
+2018-08-31 09:50:30.107  INFO 3592 --- [localhost-startStop-1] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-31 09:50:30.324  INFO 3592 --- [cluster-ClusterId{value='5b88c20e3863b80e08f8bef5', description='null'}-localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
+2018-08-31 09:50:30.328  INFO 3592 --- [cluster-ClusterId{value='5b88c20e3863b80e08f8bef5', description='null'}-localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2324400}
+2018-08-31 09:50:31.073  INFO 3592 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 09:50:31.074  INFO 3592 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-08-31 09:50:31.075  INFO 3592 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 09:50:31.075  INFO 3592 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 09:50:31.076  INFO 3592 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 09:50:31.076  INFO 3592 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-08-31 09:50:31.077  INFO 3592 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-08-31 09:50:31.496  INFO 3592 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-08-31 09:50:31.632  INFO 3592 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-08-31 09:50:31.896  INFO 3592 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-31 09:50:32.029  INFO 3592 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-31 09:50:32.774  INFO 3592 --- [main] o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-31 09:50:32.783  INFO 3592 --- [main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-08-31 09:50:33.072  INFO 3592 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-31 09:50:33.513  INFO 3592 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-08-31 09:50:34.537  INFO 3592 --- [main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1e692555'
+2018-08-31 09:50:34.542  INFO 3592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-31 09:50:34.897  WARN 3592 --- [main] c.d.r.App                                : sending hello world response...
+2018-08-31 09:50:34.897  INFO 3592 --- [main] c.d.r.App                                : sending hello world response...
+2018-08-31 09:50:34.897 ERROR 3592 --- [main] c.d.r.App                                : sending hello world response...
+2018-08-31 09:50:35.054  INFO 3592 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 09:50:35.662  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1329eff: startup date [Fri Aug 31 09:50:25 GMT+05:30 2018]; root of context hierarchy
+2018-08-31 09:50:35.699  WARN 3592 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-31 09:50:35.812  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/add],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<com.demo.rest.pojo.Customer> com.demo.rest.controller.CustomerOperations.addCustomer(com.demo.rest.pojo.Customer)
+2018-08-31 09:50:35.813  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.demo.rest.pojo.Customer>> com.demo.rest.controller.CustomerOperations.viewAllCustomers()
+2018-08-31 09:50:35.814  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/update],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.demo.rest.pojo.Customer> com.demo.rest.controller.CustomerOperations.updateCustomer(com.demo.rest.pojo.Customer)
+2018-08-31 09:50:35.830  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/view/{customerId}],methods=[GET],produces=[*/*]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resource<com.demo.rest.pojo.Customer>> com.demo.rest.controller.CustomerOperations.viewCustomer(int)
+2018-08-31 09:50:35.831  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/delete/{customerId}],methods=[DELETE],produces=[*/*]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.demo.rest.controller.CustomerOperations.deleteCustomer(int)
+2018-08-31 09:50:35.831  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{start}/{count}],methods=[GET],produces=[*/*]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resources> com.demo.rest.controller.CustomerOperations.viewAllCustomersInPages(int,int)
+2018-08-31 09:50:35.836  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 09:50:35.836  INFO 3592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 09:50:35.927  INFO 3592 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 09:50:35.927  INFO 3592 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 09:50:36.977  INFO 3592 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-08-31 09:50:36.993  INFO 3592 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-31 09:50:36.996  INFO 3592 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-31 09:50:36.997  INFO 3592 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 09:50:37.112  INFO 3592 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-31 09:50:37.125  INFO 3592 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-31 09:50:37.140  INFO 3592 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-31 09:50:37.293  INFO 3592 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-31 09:50:37.301  INFO 3592 --- [main] c.d.r.App                                : Started App in 13.087 seconds (JVM running for 14.959)
+2018-08-31 09:50:37.413  INFO 3592 --- [main] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:7}] to localhost:27017
+2018-08-31 09:51:08.156  INFO 3592 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-31 09:51:08.156  INFO 3592 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-31 09:51:08.189  INFO 3592 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-08-31 09:51:08.742  INFO 3592 --- [http-nio-8080-exec-1] c.d.r.App                                : Viewed all customers
+2018-08-31 15:22:16.213  INFO 3592 --- [http-nio-8080-exec-2] c.d.r.App                                : Viewed all customers
+2018-08-31 15:22:41.494  INFO 3592 --- [http-nio-8080-exec-4] c.d.r.App                                : Viewed all customers
+2018-08-31 15:29:22.468  INFO 3592 --- [http-nio-8080-exec-7] c.d.r.App                                : Viewed all customers
+2018-08-31 15:32:10.884  INFO 3592 --- [http-nio-8080-exec-9] c.d.r.App                                : Viewed all customers
+2018-08-31 15:35:14.527  INFO 3592 --- [http-nio-8080-exec-10] c.d.r.App                                : Viewed all customers
+2018-08-31 15:35:28.589  INFO 3592 --- [http-nio-8080-exec-1] c.d.r.App                                : Viewing customer with id 4
+2018-08-31 15:37:35.031  INFO 3592 --- [http-nio-8080-exec-2] c.d.r.App                                : Viewing customer with id 4
+2018-08-31 15:42:18.249  INFO 3592 --- [http-nio-8080-exec-4] c.d.r.App                                : Viewing customer with id 4
+2018-08-31 15:47:26.995  INFO 3592 --- [http-nio-8080-exec-5] c.d.r.App                                : Viewing customer with id 4
+2018-08-31 15:49:04.610  INFO 3592 --- [http-nio-8080-exec-6] c.d.r.App                                : Viewing customer with id 4
+2018-08-31 15:49:55.024  INFO 3592 --- [http-nio-8080-exec-9] c.d.r.App                                : Viewed all customers
+2018-08-31 15:50:23.040  INFO 3592 --- [http-nio-8080-exec-2] c.d.r.App                                : Viewing customer with id 3
+2018-08-31 16:05:54.255  INFO 3592 --- [http-nio-8080-exec-5] c.d.r.App                                : Viewing customer with id 4
+2018-08-31 16:06:02.929  INFO 3592 --- [http-nio-8080-exec-6] c.d.r.App                                : Viewed all customers
+2018-08-31 17:54:38.054  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-31 17:54:39.086  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1329eff: startup date [Fri Aug 31 09:50:25 GMT+05:30 2018]; root of context hierarchy
+2018-08-31 17:54:48.390  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-31 17:54:48.550  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-31 17:54:48.816  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-31 17:54:49.878  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-31 17:54:50.489  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-08-31 17:54:51.614  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-08-31 17:54:51.915  INFO 3592 --- [RMI TCP Connection(503)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:7}] to localhost:27017 because there was a socket exception raised on another connection from this pool.
+2018-08-31 17:54:50.301  INFO 3592 --- [cluster-ClusterId{value='5b88c20e3863b80e08f8bef5', description='null'}-localhost:27017] o.m.d.cluster                            : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.6.4.jar:?]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.6.4.jar:?]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128) [mongodb-driver-core-3.6.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_121]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongodb-driver-core-3.6.4.jar:?]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongodb-driver-core-3.6.4.jar:?]
+	... 3 more
+
